@@ -4,15 +4,6 @@ const express = require('express');
 const connectDB = require('./config/db');
 const cors = require('cors');
 const path = require('path');
-// const basicAuth = require('express-basic-auth');
-// const cookieParser = require('cookie-parser');
-
-// const auth = basicAuth({
-//    users: {
-//       admin: '123',
-//       user: '456',
-//    },
-// });
 
 // routes
 const cart = require("./routes/cart");  //use this when implementing routes

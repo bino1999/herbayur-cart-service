@@ -10,12 +10,11 @@ const CartSchema = new mongoose.Schema({
     required: true,
   },
   Itemprice: {
-    type: Number,
-    required: true,
-  },
-  image: {
     type: String,
     required: true,
+  },
+  Displayimage: {
+    type: String,
   },
 });
 
